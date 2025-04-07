@@ -1,4 +1,4 @@
-.contenedor{
+.contenedor {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6,49 +6,53 @@
     flex-wrap: wrap;
     height: 700px;
     background-color: rgba(0, 0, 0, 0.5);
-    align-content: center
-}
-.caja-1{
-    width: 500px;
-    height: 80px;
-    font-size: 85px;
-    color: white;
-    background-color: blue;
-}
-.caja-2{
-    width: 500px;
-    height: 80px;
-    font-size: 85px;
-    color: white;
-    background-color: red;
-}
-.caja-3{
-    width: 500px;
-    height: 80px;
-    font-size: 85px;
-    color: white;
-    background-color: cadetblue;
+    align-content: center;
 }
 
-.caja-4{
+.caja-1 {
     width: 500px;
     height: 80px;
     font-size: 85px;
     color: white;
-    background-color: burlywood;
-}
-.caja-5{
-    width: 500px;
-    height: 80px;
-    font-size: 85px;
-    color: white;
-    background-color: indianred;
+    background-color: #1e3c72; /* azul oscuro */
 }
 
-.caja-6{
+.caja-2 {
     width: 500px;
     height: 80px;
     font-size: 85px;
     color: white;
-    background-color: rebeccapurple;
+    background-color: #2a5298; /* azul intermedio */
+}
+
+.caja-3 {
+    width: 500px;
+    height: 80px;
+    font-size: 85px;
+    color: white;
+    background-color: #3f87a6; /* turquesa suave */
+}
+
+.caja-4 {
+    width: 500px;
+    height: 80px;
+    font-size: 85px;
+    color: white;
+    background-color: #7b5ea4; /* violeta medio */
+}
+
+.caja-5 {
+    width: 500px;
+    height: 80px;
+    font-size: 85px;
+    color: white;
+    background-color: #9d50bb; /* violeta claro */
+}
+
+.caja-6 {
+    width: 500px;
+    height: 80px;
+    font-size: 85px;
+    color: white;
+    background-color: #6e48aa; /* morado profundo */
 }
