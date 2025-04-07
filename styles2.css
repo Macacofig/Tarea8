@@ -1,0 +1,60 @@
+.contenedorFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.5);
+    align-content: space-between;
+    gap: 20px;
+}
+
+.header {   
+    flex: 1 1 100%;
+    height: 17%;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+.asideleft {
+    flex: 1 1 20%;
+    height: 60%;
+    background-color: #2ecc71;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.main {
+    flex: 1 1 40%;
+    height: 60%;
+    background-color: #e67e22;
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+
+.asideRight {
+    flex: 1 1 20%;
+    height: 60%;
+    background-color: #9b59b6;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+.footer {
+    flex: 1 1 100%;
+    background-color: #34495e;
+    height: 17%;
+    color: white;
+    text-align: center;
+    font-size: 100px;
+}
+
+li a{
+    font-size: 60px;
+}
